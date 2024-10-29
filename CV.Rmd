@@ -2,7 +2,7 @@
 name: Adam Shand
 date: "`r format(Sys.time(), '%B, %Y')`"
 qualifications: BSc(Hons), BMarSc
-position: Environmental Data Scientist
+position: Environmental Data Analyst
 address: Townsville, Australia
 email: adamshand22@gmail.com
 website: add-am.github.io
@@ -22,10 +22,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Employment
 
-```{r consulting}
+```{r employment}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Technical Officer", "Dry Tropics Partnership For Healthy Waters (DTPHW)", "Townsville, Australia", "Apr. 2022 - Present", 
+  "Environmental Data Analyst", "Dry Tropics Partnership For Healthy Waters (DTPHW)", "Townsville, Australia", "Apr. 2022 - Present", 
     list("Collaborated with industry, government, NGOs, and community stakeholders to deliver environmental monitoring reports.",
          "Implemented the ANZECC (2000) and Environmental Protection Policy water quality guidelines for a range of monitoring projects.",
          "Analysed multiple environmental indicators including climate data, water quality data, vegetation surveys, and fauna surveys.",
@@ -67,6 +67,7 @@ tribble(
 ```{r}
 tribble(
   ~ award, ~ from, ~ year,
+  "Carbon Literacy Standard", "ThinkZero", "2024",
   "HLTAID011 - Provide First Aid", "ABC First Aid", "2023",
   "HLTAID010 - PRovide basic emergency life support", "ABC First Aid", "2023",
   "HLTAID009 - Provide cardiopulmonary resuscitation", "ABC First Aid", "2023",
