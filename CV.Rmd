@@ -67,6 +67,7 @@ tribble(
 ```{r}
 tribble(
   ~ award, ~ from, ~ year,
+  "Fire Extinguisher Training", "Port of Townsville, CPPFES2005", "2025",
   "Carbon Literacy Standard", "ThinkZero", "2024",
   "HLTAID011 - Provide First Aid", "ABC First Aid", "2023",
   "HLTAID010 - PRovide basic emergency life support", "ABC First Aid", "2023",
