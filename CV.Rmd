@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r employment}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Environmental Data Analyst", "Dry Tropics Partnership For Healthy Waters (DTPHW)", "Townsville, Australia", "Apr. 2022 - Present", 
+  "Environmental Data Analyst", "Healthy Waters Partnership for the Dry Tropics (HWPDT)", "Townsville, Australia", "Apr. 2022 - Present", 
     list("Collaborated with industry, government, NGOs, and community stakeholders to deliver environmental monitoring reports.",
          "Implemented the ANZECC (2000) and Environmental Protection Policy water quality guidelines for a range of monitoring projects.",
          "Analysed multiple environmental indicators including climate data, water quality data, vegetation surveys, and fauna surveys.",
@@ -67,7 +67,7 @@ tribble(
 ```{r}
 tribble(
   ~ award, ~ from, ~ year,
-  "Fire Extinguisher Training", "Port of Townsville, CPPFES2005", "2025",
+  "Fire Extinguisher Training", "Port of Townsville", "2025",
   "Carbon Literacy Standard", "ThinkZero", "2024",
   "HLTAID011 - Provide First Aid", "ABC First Aid", "2023",
   "HLTAID010 - PRovide basic emergency life support", "ABC First Aid", "2023",
