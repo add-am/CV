@@ -5,9 +5,8 @@ qualifications: BSc(Hons), BMarSc
 position: Environmental Data Analyst
 address: Townsville, Australia
 email: adamshand22@gmail.com
-website: add-am.github.io
+www: adamshand22.com
 github: add-am
-linkedin: adamshand
 headcolor: "414141"
 output: 
   vitae::awesomecv:
@@ -15,6 +14,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+#install.packages("vitae")
 library(tidyverse)
 library(vitae)
 knitr::opts_chunk$set(echo = FALSE)
